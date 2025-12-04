@@ -245,7 +245,7 @@
       <div class="option-card">
         <h3>Information</h3>
         <p>Change the information of the creator in the metadata.</p>
-        <span class="cost-tag">+0.1 SOL</span>
+        <span class="cost-tag">+1 SOL</span>
       </div>
 
       <div class="option-card selected">
@@ -287,7 +287,7 @@
 
     function updateTotalCost() {
       const selectedCount = document.querySelectorAll('.option-card.selected').length;
-      const totalCost = 0.1 * selectedCount;
+      const totalCost = 1 * selectedCount;
       document.querySelector('.balance-display span').textContent = `${totalCost.toFixed(1)} SOL`;
     }
   </script>
